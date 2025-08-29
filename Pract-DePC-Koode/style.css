@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+.kodee-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.kodee-button {
+    background-color: #6d28d9; /* violeta */
+    color: #fff;
+    border: none;
+    padding: 14px 22px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kodee-text {
+    display: inline-block;
+}
+
+.kodee-button:hover {
+    background-color: #5b21b6;
+}
